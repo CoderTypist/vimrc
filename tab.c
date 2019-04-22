@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
 
 // Written by Christian Bargraser Spring 2019
 int main(int argc, char *argv[]){
@@ -11,10 +10,10 @@ int main(int argc, char *argv[]){
     if(2 != argc){
         printf("\nERROR: 2 arguments are required, received %d\n", argc);
 
-	      printf("\nFor usage info:");
+	printf("\nFor usage info:");
         printf("\n./tab help\n\n");
 
-	    exit(1);
+	exit(1);
     }
 
     FILE *pInput = NULL;
