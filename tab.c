@@ -49,8 +49,8 @@ int main(int argc, char *argv[]){
 
     else{
         printf("\nInvalid input\n");
-	      printf("\nFor a tab that is four spaces:");
-	      printf("\n./tab spaces");
+	printf("\nFor a tab that is four spaces:");
+	printf("\n./tab spaces");
         printf("\n\nFor an actual tab:");
         printf("\n./tab tab\n\n");
     }
