@@ -22,6 +22,7 @@ int main(int argc, char *argv[]){
     if(NULL == pInput){
         printf("\nERROR: .vimrc file was not found\n");
         printf("\nMake sure that you are in the home directory\n");
+	exit(1);
     }
 
     else if(0 == strcmp(argv[1], "help")){
